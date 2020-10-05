@@ -91,9 +91,43 @@ p {
   margin-bottom: 1rem;
 }
 
+/* cv styles*/
+
+.cv-container{
+  padding-top: 7rem;
+}
+
+.cv-header{
+  padding-bottom: 5rem !important;
+}
+
+.cv-container h4{
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+}
+.profile-photo{
+  max-width: 10rem;
+}
+
+.v-card {
+color:  #2cb0e5;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.header-separator{
+  background-color: black;
+  height: 1px;
+}
+
 .tools{
   font-size: 2rem;
 }
+
+
+
+
+
+/*end*/
 
 abbr[title],
 abbr[data-original-title] {
@@ -10281,7 +10315,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #1c2768ff !important;
   color: #fff;
 }
 
